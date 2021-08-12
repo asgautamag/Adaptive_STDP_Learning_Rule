@@ -1,4 +1,4 @@
-Scripts corresponding to the simulation results presented in: Gautam A, Kohno T (2021). An Adaptive STDP Learning Rule for Neuromorphic Systems. Submitted to Frontiers in Neuroscience - Neuromorphic Engineering.
+Scripts corresponding to the simulation results presented in: An Adaptive STDP Learning Rule for Neuromorphic Systems. Submitted to Frontiers in Neuroscience - Neuromorphic Engineering.
 
 1. The folder Spike_train_generation_matlab contains Matlab scripts to generate Poisson spike trains with hidden spike patterns to be detected. 
 a) These Matlab scripts are slightly modified versions of the scripts in the study: Masquelier T, Guyonneau R, Thorpe SJ (2008). Competitive STDP-based Spike Pattern Learning. Neural Computation: in press. Only the scripts related to spike train generation are present in this folder. 

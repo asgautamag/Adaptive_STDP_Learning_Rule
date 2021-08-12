@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue May 19 18:44:11 2020
 
-@author: ACER
-"""
 #############################Basic Elements Class##############################
 import numpy as np
 

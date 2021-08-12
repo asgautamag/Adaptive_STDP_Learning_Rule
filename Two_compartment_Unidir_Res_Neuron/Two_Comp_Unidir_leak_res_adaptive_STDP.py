@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Main script corresponding to the simulation results presented in:
-Gautam A, Kohno T (2021). An Adaptive STDP Learning Rule for Neuromorphic Systems submitted to Frontiers in Neuroscience - Neuromorphic Engineering.
+An Adaptive STDP Learning Rule for Neuromorphic Systems submitted to Frontiers in Neuroscience - Neuromorphic Engineering.
 As input, this script requires two files, input spike train comprising spike patterns to be detected and time where spike patterns are present.
 
 Parameters Units:

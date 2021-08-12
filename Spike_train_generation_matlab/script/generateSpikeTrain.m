@@ -149,7 +149,7 @@ for p=1:length(PARAM.posCopyPaste{pat})
     while s<=length(spikeList) && spikeList(s)<from
         s = s+1;
     end
-    while s<=length(spikeList) && spikeList(s)<=to%THis is removing one spike before the pattern needed-Ashish
+    while s<=length(spikeList) && spikeList(s)<=to%THis is removing one spike before the pattern needed
         if p==5
             toCopy = [toCopy spikeList(s)-(PARAM.posCopyPaste{pat}(p)-1)*PARAM.copyPasteDuration];%copy
         end

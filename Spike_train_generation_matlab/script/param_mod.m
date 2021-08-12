@@ -1,4 +1,4 @@
-function param_ashish(random_seed_state)
+function param_mod(random_seed_state)
 global PARAM
 
 PARAM.goOn = 0;
@@ -12,7 +12,7 @@ if PARAM.goOn
 % %     neuron.nextFiring = Inf;
 % %     PARAM.fixedFiringMode = false;
 else % new computation
-    %clear all %Ashish commented
+    %clear all %commented
     global PARAM
     PARAM.goOn = false;
     
@@ -69,7 +69,7 @@ else % new computation
     % post synaptic spike kernel
     PARAM.usePssKernel = true;
     % time constant: tm
-    %Ashish commented next three lines
+    %commented next three lines
     %PARAM.pssKernel =   0*pspKernel(0:PARAM.tmpResolution:PARAM.epspCut*PARAM.tm,PARAM.ts/10,PARAM.tm/10) ...
                     %-   3*pspKernel(0:PARAM.tmpResolution:PARAM.epspCut*PARAM.tm,PARAM.ts,PARAM.tm) ...
                     %+   2*exp(-[0:PARAM.tmpResolution:PARAM.epspCut*PARAM.tm]/PARAM.tm);
